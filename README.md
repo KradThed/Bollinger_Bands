@@ -28,10 +28,6 @@ Go to API Management.
 Create a new API key and secret. Save these credentials securely, as they are needed to connect the bot to your Binance account.
 Step 3: Set Up the API Keys
 In the trading_bot.py file, set your API keys as follows:
-
-python
-Копировать
-Редактировать
 api_key = "<your_api_key>"
 api_secret = "<your_private_api_key>"
 Replace the placeholder strings with your actual API key and secret.
