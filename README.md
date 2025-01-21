@@ -7,16 +7,14 @@ Installation
 Configuration
 Usage
 Bot Strategy
-Logging and Monitoring
-Error Handling
 License
 Requirements
+To run this bot, you need the following:
+
 Python 3.6 or higher
 Binance API Key and Secret
 numpy for mathematical operations
 python-binance library to interact with the Binance API
-Logging setup for monitoring the bot's actions
-
 
 Configuration
 Step 1: Create a Binance Account
@@ -30,22 +28,17 @@ Step 3: Set Up the API Keys
 In the trading_bot.py file, set your API keys as follows:
 api_key = "<your_api_key>"
 api_secret = "<your_private_api_key>"
+
 Replace the placeholder strings with your actual API key and secret.
 
-
 Bot Strategy
-The bot uses the following strategy based on Bollinger Bands and moving averages:
-
 Long Trade Conditions:
-
 If the price falls below the lower Bollinger Band and then rises above it, the bot opens a long position.
 If the price crosses above the moving average, the bot closes the long position.
 Short Trade Conditions:
-
 If the price rises above the upper Bollinger Band and then falls below it, the bot opens a short position.
 If the price crosses below the moving average, the bot closes the short position.
 The bot makes decisions based on a 5-minute candlestick and executes trades accordingly.
 
-
 License
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
